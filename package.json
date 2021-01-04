@@ -1,12 +1,23 @@
 {
-    "requires": true,
-    "lockfileVersion": 1,
-    "dependencies": {
-      "bulma": {
-        "version": "0.9.1",
-        "resolved": "https://registry.npmjs.org/bulma/-/bulma-0.9.1.tgz",
-        "integrity": "sha512-LSF69OumXg2HSKl2+rN0/OEXJy7WFEb681wtBlNS/ulJYR27J3rORHibdXZ6GVb/vyUzzYK/Arjyh56wjbFedA=="
-      }
-    }
-  }
-  
+  "name": "wcsukee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperSonicSites/WCSUkee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperSonicSites/WCSUkee/issues"
+  },
+  "homepage": "https://github.com/SuperSonicSites/WCSUkee#readme"
+}
