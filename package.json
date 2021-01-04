@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "bulma": "^0.9.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SuperSonicSites/WCSUkee/issues"
   },
-  "homepage": "https://github.com/SuperSonicSites/WCSUkee#readme"
+  "homepage": "https://github.com/SuperSonicSites/WCSUkee#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
 }
