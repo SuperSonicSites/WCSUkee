@@ -2,43 +2,20 @@
 <header class="hero is-fullheight is-bold is-primary">
 
     <div class="hero-body">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
+
       <div class="container">
-            <div class="is-flex is-column is-aligned-center-touch is-justified-center-touch">
-            <h1 class="title is-size-1 mb-5" data-aos="fade" data-aos-duration="1200">
-              {{ .Params.hero_heading }}
-            </h1>
-            <h2 class="subtitle is-size-2">
-                {{ .Params.hero_subheading }}
-            </h2>
+            <div class="is-flex is-column is-aligned-center is-justified-center">
+            <div class="">
+                <img src="{{ $.Site.BaseURL }}img/logo_transparent.png" width="300px" alt="" class="">
+            </div>
+            <h1 class="title is-size-1 mb-5" data-aos="fade" data-aos-duration="1200">{{ .Params.heading }}</h1>
+            <h2 class="subtitle is-size-2">{{ .Params.subheading }}</h2>
             <div class="">
             <a href="#" class="button is-secondary">Our Services</a>
         </div>
         </div>
       </div>
   
-    </div>
-  
 </header>
-<section class="section is-medium">
-    <div class="container is-flex is-aligned-center">
-        <h2 class="is-size-2">
-            {{ .Params.section1_heading }}
-        </h2>
-        <p class="block">
-            {{ .Params.section1_text }}
-        </p>
-    </div>
-</section>
+
 {{ end }}

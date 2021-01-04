@@ -1,4 +1,4 @@
-<section class="section has-background-dark has-text-white has-text-centered-touch">
+<section class="section footer_bg has-text-white has-text-centered-touch">
 
     <div class="container">
 
@@ -20,7 +20,7 @@
         <ul class="">
           {{ range .Site.Menus.main -}}
           
-          <li class="py-1"><a class="has-text-primary nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <li class="py-1"><a class="has-text-primary nav-item" href="{{ .URL }}">{{ .Name }}</a></li>
           
           {{ end }}
 

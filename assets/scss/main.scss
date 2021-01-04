@@ -2,7 +2,9 @@
 .container {
     max-width: 1140px !important;
 }
-
+.footer_bg {
+    background-color: #333;
+}
 /* Subheader */
 @media only screen and (max-width: 968px)  {
 .subheader {
@@ -31,6 +33,7 @@ footer {
     }
 }
 }
+
 .fill-brand-footer {
     width: 20px;
     height: 20px;
