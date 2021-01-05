@@ -1,15 +1,9 @@
-<nav class="desktop navbar py-5" role="navigation" aria-label="main navigation">
-    <div class="container">
-    <div class="navbar-brand is-flex is-row is-aligned-center">
-      <a class="title navbar-item" href="{{ .Site.BaseURL}}">
-          
-      </a>
-  
-    </div>
+<nav class="desktop navbar" role="navigation" aria-label="main navigation">
+    <div class="container py-5">
   
     <div id="navbarBasicExample" class="navbar-menu">
   
-      <div class="navbar-center">
+      <div class="navbar-end">
         {{ range .Site.Menus.main -}}
             
         <a class="navbar-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>

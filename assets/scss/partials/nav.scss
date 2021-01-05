@@ -10,13 +10,22 @@
   .navbar-item img {
     max-height: 8.75rem;
   }
-
+  .navbar-end {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  a.navbar-item {
+    border-bottom: 2px solid white;
+    font-size: 1.5rem;
+  }
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
  color: $primary !important;
  background-color: white;
- transition: all .3s;
+ border-bottom: 2px solid $primary;
+
  font-weight: 700;
   }
+
   
   
   /* MENU STYLES */
