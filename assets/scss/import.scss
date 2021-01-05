@@ -7,16 +7,6 @@ $section-padding-medium: 6rem 1.5rem;
 $is-family-primary: 'Raleway' !important;
 $is-family-secondary: 'Open Sans' !important;
 
-a,p,li,ul,ol,blockquote {
-    font-family: 'Open Sans' !important;
-}
-h1,h2,h3,h4,h5 {
-    font-family: "Raleway" !important;
-}
-.hero.is-fullheight {
-    min-height: 90vh !important;
-}
-
 @import '../../node_modules/bulma/bulma';
 @import 'utility';
 @import 'main';
