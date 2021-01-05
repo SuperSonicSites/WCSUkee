@@ -7,7 +7,7 @@
             <img src="{{ .Site.Params.schema.logo }}" alt="" class="logo" data-aos="zoom-in" data-aos-duration="1000">
           
           <h1 class="title is-size-1 mb-5 has-text-centered" data-aos="fade" data-aos-duration="1200" data-aos-delay="500">{{ .Params.heading }}</h1>
-          <p class="subtitle is-size-3 has-text-centered py-3" data-aos="fade" data-aos-duration="1200" data-aos-delay="1000">{{ .Params.subheading }}</p>
+          <p class="subtitle is-size-5 has-text-centered py-3" data-aos="fade" data-aos-duration="1200" data-aos-delay="1000">{{ .Params.subheading | safeHTML }}</p>
           <div class="" data-aos="fade-up" data-aos-duration="500">
           <a href="#" class="button is-large is-primary">Our Surfboards</a>
           <a href="#" class="button is-large is-secondary">About Us</a>
