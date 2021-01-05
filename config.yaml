@@ -1,6 +1,7 @@
 baseURL: "https://wcsukee.netlify.app/"
 title: West Coast Shape Surfboard
 description: Site Tagline
+relativeURLs: true
 
 menu:
   main:
