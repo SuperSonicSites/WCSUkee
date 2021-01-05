@@ -30,11 +30,12 @@
     font-size: 3.5rem !important;
 }
 body {
-    font-family: 'Open Sans';
-
+    p {
+    font-family: 'Open Sans' sans-serif !important;
+}
       h1,h2,h3,h4,h5 {
 
-        font-family: 'Raleway' !important;
+        font-family: 'Raleway' sans-serif !important;
 
       }
   }
