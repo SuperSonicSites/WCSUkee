@@ -8,6 +8,7 @@
     {{ $styles := resources.Get "scss/import.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
     {{- partial "gtm-head.html" . }}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     {{- partial "nav.html" . }}
