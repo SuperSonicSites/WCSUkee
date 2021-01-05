@@ -7,10 +7,9 @@
     <!-- CSS Processing -->
     {{ $styles := resources.Get "scss/import.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
-
     {{- partial "gtm-head.html" . }}
 </head>
-<body>
+<body style="font-family: 'Raleway'">
     {{- partial "nav.html" . }}
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . }}
