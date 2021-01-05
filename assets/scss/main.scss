@@ -17,16 +17,18 @@
 }
 
 /* Found in footer */
+
 .footer_bg {
-    background-color: #333;
+    background: rgb(1,88,113);
+    background: linear-gradient(180deg, rgba(1,88,113,1) 4%, rgba(3,128,163,1) 100%);
 }
 .footer_logo { 
     width: 200px;
 }
 footer {
     
-    .nav-link {
-    color: $secondary !important;
+    .nav-link a {
+    color: white !important;
 
     &:hover {
         color: $primary;
