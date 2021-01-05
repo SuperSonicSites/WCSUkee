@@ -7,6 +7,7 @@
 </div>
 <section class="section is-medium">
     <div class="container">
+        <h2 class="is-size-2 has-text-weight-bold pb-5 mb-5">Meet the Team</h2>
         <div class="columns mb-5 pb-5">
             <div class="column is-4">
                 <figure class="image is-4by3">
@@ -14,8 +15,8 @@
                   </figure>
             </div>
             <div class="column is-8">
-                <h2 class="is-size-2">{{ .Params.team1_name }}</h2>
-                <p class="block">{{ .Params.team1_description }}</p>
+                <h2 class="is-size-2 has-text-weight-bold">{{ .Params.team1_name | safeHTML }}</h2>
+                <p class="block">{{ .Params.team1_description | safeHTML }}</p>
             </div>
         </div>
 
@@ -26,8 +27,8 @@
                   </figure>
             </div>
             <div class="column is-8">
-                <h2 class="is-size-2">{{ .Params.team1_name }}</h2>
-                <p class="block">{{ .Params.team1_description }}</p>
+                <h2 class="is-size-2 has-text-weight-bold">{{ .Params.team2_name | safeHTML }}</h2>
+                <p class="block">{{ .Params.team2_description | safeHTML }}</p>
             </div>
         </div>
 
@@ -38,22 +39,11 @@
                   </figure>
             </div>
             <div class="column is-8">
-                <h2 class="is-size-2">{{ .Params.team1_name }}</h2>
-                <p class="block">{{ .Params.team1_description }}</p>
+                <h2 class="is-size-2 has-text-weight-bold">{{ .Params.team3_name | safeHTML }}</h2>
+                <p class="block">{{ .Params.team3_description | safeHTML }}</p>
             </div>
         </div>
 
-        <div class="columns mb-5 pb-5">
-            <div class="column is-4">
-                <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                  </figure>
-            </div>
-            <div class="column is-8">
-                <h2 class="is-size-2">{{ .Params.team1_name }}</h2>
-                <p class="block">{{ .Params.team1_description }}</p>
-            </div>
-        </div>
     </div>
 </section>
 </section>
