@@ -3,8 +3,8 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: single
 bannerh1: "Privacy Policy"
-companyname: "Boilerplate.com" #Company Name Here
-companyemail: "hello@supersonicsites.com" #Company Name Here
+companyname: "WestCoast Shapes" #Company Name Here
+companyemail: "info@wcsukee.com" #Company Name Here
 ---
 
 Effective Date: May 5, 2020
