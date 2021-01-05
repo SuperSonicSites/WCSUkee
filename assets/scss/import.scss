@@ -1,4 +1,4 @@
-$primary: #006994;
+$primary: #015871;
 $secondary: #f1f1f1;
 
 $hero-body-padding-medium: 6rem 1.5rem;
@@ -6,6 +6,10 @@ $section-padding-medium: 6rem 1.5rem;
 
 $is-family-primary: 'Raleway' !important;
 $is-family-secondary: 'Open Sans' !important;
+
+.hero.is-fullheight {
+    min-height: 90vh !important;
+}
 
 @import '../../node_modules/bulma/bulma';
 @import 'utility';
@@ -18,3 +22,4 @@ $is-family-secondary: 'Open Sans' !important;
 @import 'partials/nav';
 
 @import 'typography';
+@import 'partials/wave';

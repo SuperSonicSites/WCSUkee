@@ -41,7 +41,7 @@ params:
         reservation: 'false'
         openinghour: 'Mo-Fr 9:00-17:00'
         logo: "img/logo.jpg"
-        logo_footer: "img/logo_footer.jpg"
+        logo_footer: "img/logo_transparent.png"
         image: "img/og.jpg"
         address: TBD
         address2: TBD
