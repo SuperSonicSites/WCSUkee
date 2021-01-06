@@ -24,8 +24,8 @@ menu:
 params:
     name: 'West Coast Shape Surfboard'
     usebasin: 'https://usebasin.com/f/244688722c09' #endpoint for forms
-    googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9633148368903!2d-73.82560598421715!3d45.43024084372952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93fafae393647%3A0x23aec3743ffadd38!2sNetComp%20Technologies%20Inc!5e0!3m2!1sen!2sca!4v1607100518023!5m2!1sen!2sca' # Map code of Google
-    gtm: 'GTM-T7ZN93Z'
+    googlemap: '' # Map code of Google
+    gtm: 'GTM-T7ZN93Zam'
     hours:
         hour1en: 'Mon to Fri - 9:00-17:00' #Footer Hours Line #1
         hour2en: 'Sat - Closed' #Footer Hours Line #2

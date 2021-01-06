@@ -7,7 +7,7 @@
     <!-- CSS Processing -->
     {{ $styles := resources.Get "scss/import.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
-    {{- partial "gtm-head.html" . }}
+    <!-- {{- partial "gtm-head.html" . }} -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -15,6 +15,6 @@
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . }}
     {{- partial "script.html" . }}
-    {{- partial "gtm-body.html" . }}
+    <!-- {{- partial "gtm-body.html" . }}-->
 </body>
 </html>

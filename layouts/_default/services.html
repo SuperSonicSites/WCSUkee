@@ -1,6 +1,11 @@
 {{ define "main" }}
 {{- partial "subheader.html" .}}
-<section class="section is-medium">
-    
+<h2 class="is-size-1 has-text-centered">Coming Soon!
+</h2>
+<section class="section is-small">
+    <div class="container">
+    {{ .Params.intro | safeHTML }}
+</div>
 </section>
+<section class="section is-medium"></section>
 {{ end }}
