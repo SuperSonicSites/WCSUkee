@@ -1,14 +1,14 @@
 {{ define "main" }}
+<div class="overlay">
 <header class="hero is-fullheight">
   <div class="hero-body">
 
     <div class="container">
-          <div class="is-flex is-column is-aligned-center is-justified-center">
-            <img src="{{ .Site.Params.schema.logo }}" alt="" class="logo" data-aos="zoom-in" data-aos-duration="1000">
-          
-          <h1 class="title is-size-1 mb-5 has-text-centered" data-aos="fade" data-aos-duration="1200" data-aos-delay="500">{{ .Params.heading }}</h1>
-          <p class="subtitle is-size-5 has-text-centered py-3" data-aos="fade" data-aos-duration="1200" data-aos-delay="1000">{{ .Params.subheading | safeHTML }}</p>
-          <div class="" data-aos="fade-up" data-aos-duration="500">
+          <div class="is-flex is-column is-aligned-start is-justified-center">
+            
+          <h1 class="title mb-5 has-text-left has-text-white">{{ .Params.heading }}</h1>
+          <p class="subtitle is-size-5 has-text-left py-3 has-text-white ">{{ .Params.subheading | safeHTML }}</p>
+          <div class="">
           <a href="/surfboards/" class="button is-large is-primary">Our Surfboards</a>
           <a href="/about/" class="button is-large is-secondary">About Us</a>
         </div>
@@ -16,4 +16,5 @@
     </div>
     </div>
 </header>
+</div>
 {{ end }}

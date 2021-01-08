@@ -14,8 +14,8 @@ menu:
   - name: Surfboards
     url: /surfboards
     weight: 3
-  - name: Services
-    url: 'services/'
+  - name: Rental
+    url: 'rental/'
     weight: 4
   - name: Contact
     url: 'contact/'

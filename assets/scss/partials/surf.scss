@@ -1,20 +1,17 @@
-.hero {
-    z-index: 100;
-    padding-bottom: 100px;
-    background-image: url(../img/bg4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-   
+.board-form {
+    label {
+        color: white;
+        font-weight: 400;
 
-    .title {
-        font-size: 5rem;
-        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-        0px 8px 13px rgba(0,0,0,0.1),
-        0px 18px 23px rgba(0,0,0,0.1);
     }
-
+}
+.input {
+    border-radius: 0px !important;
+}
+textarea {
+    border-radius: 0px !important;
+}
+.surf {
     .button {
         text-decoration: none;
         border: 1px solid black;
@@ -45,14 +42,4 @@
       .button:hover:before {
         left: 100%;
       }
-}
-.overlay {
-    background-color: black !important;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-}
-.logo {
-    max-width: 400px;
-    padding: 35px 0;
 }

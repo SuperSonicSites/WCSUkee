@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{- partial "subheader.html" .}}
+
+<section class="section is-medium">
+    <div class="container">
+        <h2 class="is-size-1 has-text-centered mb-5">Coming Soon!
+        </h2>
+    {{ .Params.intro | safeHTML }}
+    <div class="py-5">
+    </div>
+    <div class="columns">
+        <div class="column">
+            <img src="{{ $.Site.BaseURL }}img/board.jpg" alt="">
+            <h3 class="is-size-3 has-text-weight-bold has-text-centered my-3">Surfboards</h3>
+        </div>
+        <div class="column">
+            <img src="{{ $.Site.BaseURL }}img/wetsuit.jpg" alt="">
+            <h3 class="is-size-3 has-text-weight-bold has-text-centered my-3">Wetsuits</h3>
+        </div>
+        <div class="column">
+            <img src="{{ $.Site.BaseURL }}img/photo.jpg" alt="">
+            <h3 class="is-size-3 has-text-weight-bold has-text-centered my-3">Surfboards</h3>
+        </div>
+    </div>
+    <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+          
+        <div class="field">
+      
+          <label class="label">{{ i18n "firstname" }} *</label>
+             
+          <div class="control">
+      
+            <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+      
+          </div>
+      
+        </div>
+      
+      <div class="field">
+        
+        <label class="label">{{ i18n "email" }} *</label>
+        
+        <div class="control">
+        
+          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
+        
+        </div>
+      
+      </div>
+
+      <div class="field">
+        
+        <label class="label">{{ i18n "phone" }}</label>
+        
+        <div class="control">
+        
+          <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+        
+        </div>
+      
+      </div>
+
+      <div class="field">
+
+      <label for="form_message" class="label">Message *</label>
+
+          <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
+   
+    </div>
+    <div class="is-flex is-justified-start">
+    <input type="submit" class="button is-secondary" value="{{ i18n "send" }}">
+  </div>
+    </form>
+</div>
+
+</section>
+{{ end }}

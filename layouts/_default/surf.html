@@ -1,6 +1,102 @@
 {{ define "main" }}
 {{- partial "subheader.html" .}}
-<section class="section is-medium">
-    <h2 class="is-size-1 has-text-centered">Coming Soon!</h2>
+<section class="section is-medium surf">
+    <div class="container">
+        <h2 class="is-size-2 has-text-weight-bold">West Coast Shapes Boards</h2>
+        <p class="block py-2">Discover our wide variety of surfboard below. Want to make your own based on your specific preferences?</p>
+        <div class="mb-5"><a href="#customorder" class="button is-primary">Order a Custom Surfboard</a></div>
+        <div class="py-5"></div>
+        <div class="columns mb-5 pb-5">
+            <div class="column is-4">
+                <figure class="image is-4by3">
+                    <img src="{{ $.Site.BaseURL }}img/surfboard.jpg" alt="Placeholder image">
+                  </figure>
+            </div>
+            <div class="column is-8">
+                <h2 class="is-size-3 has-text-weight-bold">{{ .Params.surf1 | safeHTML }}</h2>
+                <p class="block">{{ .Params.surf1_desc | safeHTML }}</p>
+            </div>
+        </div>
+
+        <div class="columns mb-5 pb-5">
+            <div class="column is-4">
+                <figure class="image is-4by3">
+                    <img src="{{ $.Site.BaseURL }}img/surfboard.jpg" alt="Placeholder image">
+                  </figure>
+            </div>
+            <div class="column is-8">
+                <h2 class="is-size-3 has-text-weight-bold">{{ .Params.surf2 | safeHTML }}</h2>
+                <p class="block">{{ .Params.surf2_desc | safeHTML }}</p>
+            </div>
+        </div>
+
+        <div class="columns mb-5 pb-5">
+            <div class="column is-4">
+                <figure class="image is-4by3">
+                    <img src="{{ $.Site.BaseURL }}img/surfboard.jpg" alt="Placeholder image">
+                  </figure>
+            </div>
+            <div class="column is-8">
+                <h2 class="is-size-3 has-text-weight-bold">{{ .Params.surf3 | safeHTML }}</h2>
+                <p class="block">{{ .Params.surf3_desc | safeHTML }}</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section id="customorder" class="section board-form is-medium has-background-primary">
+    <div class="container">
+        <h2 class="is-size-2 has-text-weight-bold has-text-white mb-5">Custom Order Form</h2>
+    <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+          
+        <div class="field">
+      
+          <label class="label">{{ i18n "firstname" }} *</label>
+             
+          <div class="control">
+      
+            <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+      
+          </div>
+      
+        </div>
+      
+      <div class="field">
+        
+        <label class="label">{{ i18n "email" }} *</label>
+        
+        <div class="control">
+        
+          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
+        
+        </div>
+      
+      </div>
+
+      <div class="field">
+        
+        <label class="label">{{ i18n "phone" }}</label>
+        
+        <div class="control">
+        
+          <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+        
+        </div>
+      
+      </div>
+
+      <div class="field">
+
+      <label for="form_message" class="label">Message *</label>
+
+          <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
+   
+    </div>
+    <div class="is-flex is-justified-start">
+    <input type="submit" class="button is-secondary" value="{{ i18n "send" }}">
+  </div>
+    </form>
+</div>
 </section>
 {{ end }}

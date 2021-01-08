@@ -2,7 +2,16 @@
 .container {
     max-width: 1140px !important;
 }
+.button {
+    border-radius: 0px;
+}
+.subheader {
+    max-height: 330px;
 
+    h1 {
+        margin-top: 90px;
+    }
+}
 /* Subheader */
 @media only screen and (max-width: 968px)  {
 .subheader {
@@ -19,8 +28,7 @@
 /* Found in footer */
 
 .footer_bg {
-    background: rgb(1,88,113);
-    background: linear-gradient(180deg, rgba(1,88,113,1) 4%, rgba(3,128,163,1) 100%);
+    background-color: black;
 }
 .footer_logo { 
     width: 200px;
