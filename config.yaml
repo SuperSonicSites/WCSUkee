@@ -34,7 +34,7 @@ params:
         facebook: 'https://www.facebook.com/'
         twitter: ''
         pinterest: ''
-        instagram: ''
+        instagram: 'https://www.instagram.com'
         linkedin: 'https://ca.linkedin.com/'
     schema:
         type: ProfessionalService
