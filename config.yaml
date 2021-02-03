@@ -35,7 +35,7 @@ params:
         twitter: ''
         pinterest: ''
         instagram: 'https://www.instagram.com'
-        linkedin: 'https://ca.linkedin.com/'
+        linkedin: ''
     schema:
         type: ProfessionalService
         priceRange: $$$
