@@ -44,6 +44,7 @@ params:
         logo: "img/logo.jpg"
         logo_footer: "img/logo_transparent.png"
         image: "img/og.jpg"
+        og: "img/og.jpg"
         address: TBD
         address2: TBD
         city: Ucluelet
