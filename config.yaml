@@ -31,10 +31,10 @@ params:
         hour2en: 'Sat - Closed' #Footer Hours Line #2
         hour3en: 'Sun - Closed' #Footer Hours Line #3
     social:
-        facebook: 'https://www.facebook.com/'
+        facebook: 'https://www.facebook.com/West-Coast-Shapes-Ucluelet-106018111483280/'
         twitter: ''
         pinterest: ''
-        instagram: 'https://www.instagram.com'
+        instagram: 'http://instagram.com/wcsukee'
         linkedin: ''
     schema:
         type: ProfessionalService
