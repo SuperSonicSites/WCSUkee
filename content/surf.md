@@ -1,6 +1,6 @@
 ---
-title: Surfboard
-description: See our surfboards
+title:  West Coast Shapes Surfboards
+description: West Coast Shape will be manufacturing board on the west coast using the most advance and eco friendly technology on Epoxy resin, changing methods as the technology evolves.  We will have different brands available for a wider range of board options and surf styles.
 bannerh1: Surfboards
 layout: surf
 slug: surfboards

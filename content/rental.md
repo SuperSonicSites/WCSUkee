@@ -1,6 +1,6 @@
 ---
 title: Rental Services
-description: Rental page
+description: Need a board? Need a rental? Need a wetsuit? We've got you covered! Browse our lists to find what you need for a rad surfing experience.
 bannerh1: Rental
 layout: rental
 

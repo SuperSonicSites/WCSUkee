@@ -1,6 +1,6 @@
 ---
-title: Homepage
-description: Homepage description
+title: Westcoast Shapes Surfboards
+description: Canada's Finest Handcrafted Surfboards.  Whether you're 3 years old or 75, a beginner or a seasoned professional, our boards provide you with a solid foundation. Discover hundreds of different affordable models, from basic designs to custom boards - the choice is yours
 layout: home
 heading: Canada's Finest Handcrafted Surfboards
 subheading: "Put a Canadian crafted West Coast Shapeds surfboard between you and the wave. Whether you're 3 years old or 75, a beginner or a seasoned professional, our boards provide you with a solid foundation. Discover hundreds of different affordable models, from basic designs to custom boards - the choice is yours! <br>
