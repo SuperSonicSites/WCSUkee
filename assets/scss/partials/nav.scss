@@ -213,6 +213,9 @@ background-color: $primary;
   .desktop {
       display: none;
   }
+  .nav_logo {
+    max-height: 120px;
+  }
 }
 @media(min-width: 967px) {
   .mobile {
