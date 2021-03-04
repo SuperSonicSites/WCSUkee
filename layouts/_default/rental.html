@@ -27,53 +27,45 @@
     </div>
     <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
           
-        <div class="field">
-      
-          <label class="label">{{ i18n "firstname" }} *</label>
-             
-          <div class="control">
-      
-            <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
-      
-          </div>
-      
-        </div>
-      
       <div class="field">
-        
-        <label class="label">{{ i18n "email" }} *</label>
-        
-        <div class="control">
-        
-          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
-        
-        </div>
-      
+    
+        <label for="form_name" class="label">{{ i18n "firstname" }} *</label>
+  
+    
+          <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+
+    
       </div>
-
-      <div class="field">
-        
-        <label class="label">{{ i18n "phone" }}</label>
-        
-        <div class="control">
-        
-          <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
-        
-        </div>
+    
+    <div class="field">
       
-      </div>
+      <label for="email" class="label">{{ i18n "email" }} *</label>
 
-      <div class="field">
-
-      <label for="form_message" class="label">Message *</label>
-
-          <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
-   
+        <input id="email" class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required." required="required">
+      
+    
     </div>
-    <div class="is-flex is-justified-start">
-    <input type="submit" class="button is-secondary" value="{{ i18n "send" }}">
+
+    <div class="field">
+      
+      <label for="tel" class="label">{{ i18n "phone" }}</label>
+      
+        <input id="tel" name="Telephone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+
+    
+    </div>
+
+    <div class="field">
+
+    <label for="form_message"><strong>Message *</strong></label>
+
+        <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
+ 
   </div>
-    </form>
+  <div class="is-flex is-justified-start">
+  <input type="submit" class="button is-primary" value="{{ i18n "send" }}">
+</div>
+  </form>
 </div>
 
 </section>

@@ -13,37 +13,29 @@
           
             <div class="field">
           
-              <label class="label">{{ i18n "firstname" }} *</label>
-                 
-              <div class="control">
+              <label for="form_name" class="label">{{ i18n "firstname" }} *</label>
+        
           
                 <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
-          
-              </div>
+      
           
             </div>
           
           <div class="field">
             
-            <label class="label">{{ i18n "email" }} *</label>
+            <label for="email" class="label">{{ i18n "email" }} *</label>
+
+              <input id="email" class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required." required="required">
             
-            <div class="control">
-            
-              <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
-            
-            </div>
           
           </div>
 
           <div class="field">
             
-            <label class="label">{{ i18n "phone" }}</label>
+            <label for="tel" class="label">{{ i18n "phone" }}</label>
             
-            <div class="control">
-            
-              <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
-            
-            </div>
+              <input id="tel" name="Telephone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+
           
           </div>
 
