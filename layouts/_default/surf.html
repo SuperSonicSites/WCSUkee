@@ -1,154 +1,158 @@
 {{ define "main" }}
 {{- partial "subheader.html" .}}
 <section class="section is-medium surf">
-    <div class="container">
-        <h2 class="is-size-2 has-text-weight-bold">West Coast Shapes Boards</h2>
-        <p class="block py-2">Discover our wide variety of surfboard below. Want to make your own based on your specific preferences?</p>
-        <div class="mb-5"><a href="#customorder" class="button is-primary">Order a Custom Surfboard</a></div>
-        <div class="py-5"></div>
-        <div class="columns mb-5 pb-5">
-            <div class="column is-4">
-                <figure class="image is-4by4 border2">
-                    <img src="{{ $.Site.BaseURL }}img/wcshapesukee.jpg" alt="WestCoast Shapes Logo" class="lazyload">
-                  </figure>
-            </div>
-            <div class="column is-8">
-                <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf1 | safeHTML }}</h2>
-                <p class="block">{{ .Params.surf1_desc | safeHTML }}</p>
-            </div>
-        </div>
-
-        <div class="columns mb-5 pb-5">
-            <div class="column is-4">
-                <figure class="image is-4by4 border2">
-                    <img src="{{ $.Site.BaseURL }}img/wcshapesukee.jpg" alt="WestCoast Shapes Logo" class="lazyload">
-                  </figure>
-            </div>
-            <div class="column is-8">
-                <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf2 | safeHTML }}</h2>
-                <p class="block">{{ .Params.surf2_desc | safeHTML }}</p>
-            </div>
-        </div>
-
-        <div class="columns mb-5 pb-5">
-            <div class="column is-4">
-                <figure class="image is-4by4 border2">
-                    <img src="{{ $.Site.BaseURL }}img/suntech.jpg" alt="Suntech Surfboard Logo" class="lazyload">
-                  </figure>
-            </div>
-            <div class="column is-8">
-                <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf3 | safeHTML }}</h2>
-                <p class="block">{{ .Params.surf3_desc | safeHTML }}</p>
-            </div>
-        </div>
-
-        <div class="columns mb-5 pb-5">
-          <div class="column is-4">
-              <figure class="image is-4by4 border2">
-                  <img src="{{ $.Site.BaseURL }}img/clayton.jpg" alt="Clayton Surfboard Logo" class="lazyload">
-                </figure>
-          </div>
-          <div class="column is-8">
-              <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf4 | safeHTML }}</h2>
-              <p class="block">{{ .Params.surf4_desc | safeHTML }}</p>
-          </div>
+  <div class="container">
+    <h2 class="is-size-2 has-text-weight-bold">West Coast Shapes Boards</h2>
+    <p class="block py-2">Discover our wide variety of surfboard below. Want to make your own based on your specific
+      preferences?</p>
+    <div class="mb-5"><a href="#customorder" class="button is-primary">Order a Custom Surfboard</a></div>
+    <div class="py-5"></div>
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/wcshapesukee.jpg" alt="WestCoast Shapes Logo" class="lazyload">
+        </figure>
       </div>
-
-      <div class="columns mb-5 pb-5">
-        <div class="column is-4">
-            <figure class="image is-4by4 border2">
-                <img src="{{ $.Site.BaseURL }}img/rooster.jpg" alt="Rooster Surfboard Logo" class="lazyload">
-              </figure>
-        </div>
-        <div class="column is-8">
-            <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf5 | safeHTML }}</h2>
-            <p class="block">{{ .Params.surf5_desc | safeHTML }}</p>
-        </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf1 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf1_desc | safeHTML }}</p>
+      </div>
     </div>
 
     <div class="columns mb-5 pb-5">
       <div class="column is-4">
-          <figure class="image is-4by4 border2">
-              <img src="{{ $.Site.BaseURL }}img/lakesurf.jpg" alt="Lakesurf Surfboard Logo" class="lazyload">
-            </figure>
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/wcshapesukee.jpg" alt="WestCoast Shapes Logo" class="lazyload">
+        </figure>
       </div>
       <div class="column is-8">
-          <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf6 | safeHTML }}</h2>
-          <p class="block">{{ .Params.surf6_desc | safeHTML }}</p>
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf2 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf2_desc | safeHTML }}</p>
       </div>
-  </div>
-
-  <div class="columns mb-5 pb-5">
-    <div class="column is-4">
-        <figure class="image is-4by4 border2">
-            <img src="{{ $.Site.BaseURL }}img/carver.jpg" alt="Carver Surfboard Logo" class="lazyload">
-          </figure>
     </div>
-    <div class="column is-8">
+
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/suntech.jpg" alt="Suntech Surfboard Logo" class="lazyload">
+        </figure>
+      </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf3 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf3_desc | safeHTML }}</p>
+      </div>
+    </div>
+
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/clayton.jpg" alt="Clayton Surfboard Logo" class="lazyload">
+        </figure>
+      </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf4 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf4_desc | safeHTML }}</p>
+      </div>
+    </div>
+
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/rooster.jpg" alt="Rooster Surfboard Logo" class="lazyload">
+        </figure>
+      </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf5 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf5_desc | safeHTML }}</p>
+      </div>
+    </div>
+
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/lakesurf.jpg" alt="Lakesurf Surfboard Logo" class="lazyload">
+        </figure>
+      </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf6 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf6_desc | safeHTML }}</p>
+      </div>
+    </div>
+
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
+          <img src="{{ $.Site.BaseURL }}img/carver.jpg" alt="Carver Surfboard Logo" class="lazyload">
+        </figure>
+      </div>
+      <div class="column is-8">
         <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf7 | safeHTML }}</h2>
         <p class="block">{{ .Params.surf7_desc | safeHTML }}</p>
+      </div>
     </div>
-</div>
 
-<div class="columns mb-5 pb-5">
-  <div class="column is-4">
-      <figure class="image is-4by4 border2">
+    <div class="columns mb-5 pb-5">
+      <div class="column is-4">
+        <figure class="image is-4by4 border2">
           <img src="{{ $.Site.BaseURL }}img/storytime.jpg" alt="Storytime Surfboard Logo" class="lazyload">
         </figure>
-  </div>
-  <div class="column is-8">
-      <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf8 | safeHTML }}</h2>
-      <p class="block">{{ .Params.surf8_desc | safeHTML }}</p>
-  </div>
-</div>
-
+      </div>
+      <div class="column is-8">
+        <h2 class="is-size-3 has-text-weight-bold mb-3">{{ .Params.surf8 | safeHTML }}</h2>
+        <p class="block">{{ .Params.surf8_desc | safeHTML }}</p>
+      </div>
     </div>
+
+  </div>
 
 </section>
 <section id="customorder" class="section board-form is-medium has-background-primary">
-    <div class="container">
-        <h2 class="is-size-2 has-text-weight-bold has-text-white mb-5">Custom Order Form</h2>
-        <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
-          
-          <div class="field">
-        
-            <label for="form_name" class="label">{{ i18n "firstname" }} *</label>
-      
-        
-              <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
-    
-        
-          </div>
-        
-        <div class="field">
-          
-          <label for="email" class="label">{{ i18n "email" }} *</label>
+  <div class="container">
+    <h2 class="is-size-2 has-text-weight-bold has-text-white mb-5">Custom Order Form</h2>
+    <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
 
-            <input id="email" class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required." required="required">
-          
-        
-        </div>
+      <div class="field">
 
-        <div class="field">
-          
-          <label for="tel" class="label">{{ i18n "phone" }}</label>
-          
-            <input id="tel" name="Telephone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+        <label for="form_name" class="label">{{ i18n "firstname" }} *</label>
 
-        
-        </div>
 
-        <div class="field">
+        <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control"
+          required="required" data-error="Firstname is required.">
 
-        <label for="form_message"><strong>Message *</strong></label>
 
-            <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
-     
+      </div>
+
+      <div class="field">
+
+        <label for="email" class="label">{{ i18n "email" }} *</label>
+
+        <input id="email" class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com"
+          data-error="Valid email is required." required="required">
+
+
+      </div>
+
+      <div class="field">
+
+        <label for="tel" class="label">{{ i18n "phone" }}</label>
+
+        <input id="tel" name="Telephone" class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+
+
+      </div>
+
+      <div class="field">
+
+        <label for="form_message" class="has-text-white"><strong>Message *</strong></label>
+
+        <textarea id="form_message" name="message" class="textarea" rows="4" required
+          data-error="Please,leave us a message."></textarea>
+
       </div>
       <div class="is-flex is-justified-start">
-      <input type="submit" class="button is-primary" value="{{ i18n "send" }}">
-    </div>
-      </form>
-</div>
+        <input type="submit" class="button is-secondary" value="{{ i18n " send" }}">
+      </div>
+    </form>
+  </div>
 </section>
 {{ end }}
